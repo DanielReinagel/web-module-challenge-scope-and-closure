@@ -33,7 +33,7 @@ console.log(processFirstItem(['foo','bar'],function(str){return str+str}));
     counter1 uses a closure because it accesses a variable that is in the parent function.
   3. In what scenario would the counter1 code be preferable? In what scenario would 
   counter2 be better?
-    I kinda hate making up scenarios. NOT FINISHED, REMEMBER TO DO THIS LATER.  
+    If you want to be able to affect your count in other ways or want to access the count without incrementing it, counter2 is better. If you only need what the counter does, then counter1 is better because it doesn't add a global variable.
 */
 
 // counter1 code
