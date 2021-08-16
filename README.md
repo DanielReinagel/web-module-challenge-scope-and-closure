@@ -59,6 +59,7 @@ You will be running your tests in one terminal and debugging in the other. As yo
 Edit the `ReadMe` file with your answers to the questions below.
 
 1. In your own words, define closure (1-2 sentences).
+  Closure occurs when you access a variable from a parent function.
 2. Study the following code, then answer the questions below.
 
 ```js
@@ -80,8 +81,11 @@ dansRoll();
 ```
 
 a. Where is closure used in this code? How can you tell?
+  Closure is used when dansRoll() is accessing the variable name. It is accessing it from its parent function.
 b. Compare and contrast calling `dansRoll` the first and second time. What is always the same? What could change?
+  "Dan rolled a " is the same but the number can be different depending on what Math.random() rolls.
 c. What is the lexical scope of `newRoll`? 
+  newRoll is local to the innermost function.
 
 
 ### Task 3 - Stretch Goals
